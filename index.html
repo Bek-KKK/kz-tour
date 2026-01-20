@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KZ Travel — Қазақстан туризмі</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <div class="logo">KZ</div>
+        <div>
+          KZ Travel
+          <small>Қалалар • Орындар • Бағыттар</small>
+        </div>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Басты бет</a>
+        <a href="cities.html">Қалалар</a>
+        <a href="places.html">Туристік орындар</a>
+        <a href="map.html">Карта</a>
+        <a href="contact.html">Байланыс</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <div>
+          <h1>Қазақстан бойынша қалалар мен туристік орындар</h1>
+          <p>
+            Бұл сайтта Қазақстанның ірі қалалары, облыстары және ең танымал туристік бағыттары туралы қысқаша ақпарат берілген.
+            Іздеу арқылы қала/орынды тез таба аласыз және картадан бірден аша аласыз.
+          </p>
+
+          <div class="badges">
+            <span class="badge">Іздеу (Ctrl+K)</span>
+            <span class="badge">Фильтр: аймақ/қала/түрі</span>
+            <span class="badge">Google Maps сілтемелері</span>
+            <span class="badge">Жеңіл дизайн</span>
+          </div>
+
+          <div class="cta">
+            <a class="btn primary" href="cities.html">Қалаларды көру</a>
+            <a class="btn success" href="places.html">Орындарды көру</a>
+            <a class="btn" href="map.html">Карта</a>
+          </div>
+
+          <p class="small" style="margin-top:12px">
+            Кеңейту керек болса — қосымша қалалар/аудандар/облыстарды дерекқорға (script.js) қосып беремін.
+          </p>
+        </div>
+
+        <div class="hero-img">
+          <div class="ph">
+            <div>
+              <strong>Фото/галерея орны</strong>
+              <div class="small">Кейін нақты суреттерді қосып, карточкаларға автомат қылып кіргіземіз.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Танымал қалалар</h2>
+      <p class="sub">Төмендегі карточкалардан қала туралы қысқаша ақпарат және картаға өту бар.</p>
+      <div id="topCities" class="grid"></div>
+    </section>
+
+    <section class="section">
+      <h2>Танымал туристік орындар</h2>
+      <p class="sub">Түрі, маусымы және қысқаша сипаттамасы көрсетілген.</p>
+      <div id="topPlaces" class="grid"></div>
+    </section>
+
+    <footer class="footer">
+      © 2026 KZ Travel • Demo сайт (VS Code үшін)
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
